@@ -1,0 +1,338 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #FAEDDF;
+    /* cursor: pointer; */
+}
+
+.container1 {
+    background-color: #960047;
+    height: 34px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 10px;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.conatiner2 {
+    height: 70px;
+    background-color: #FAEDDF;
+
+
+    /* height: 81px; */
+    /* display: flex; */
+    /* justify-content; */
+    /* margin-top: 12px; */
+}
+
+
+.main-content {
+    /* position: sticky; */
+    /* top: 0px; */
+    /* height: 63px; */
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    /* display: flex; */
+    align-items: center;
+}
+
+.left:hover {
+    cursor: pointer;
+}
+
+.left {
+    display: flex;
+    width: 20vw;
+    /* background-color: red; */
+    justify-content: space-between;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.left img {
+    height: 5vh;
+}
+
+.right:hover {}
+
+.menu {
+    /* background-color: red; */
+    list-style-type: none;
+    width: 377px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.logo {
+    display: flex;
+    height: 60px;
+    /* width: 60px; */
+}
+
+.logo img {
+    height: 9.5vh;
+    width: 7vw;
+    margin-left: 7vw;
+}
+
+.menu,
+.cart {
+    display: flex;
+    align-items: center;
+}
+
+.img {
+    /* margin-top: 3vh; */
+    background-image: url('bg.webp');
+    background-size: cover;
+    height: 92vh;
+    /* width: 101vw; */
+    background-repeat: no-repeat;
+    /* display: none; */
+}
+
+.mainContents {
+    /* background-color:red; */
+    height: 66vh;
+    width: 64vw;
+    color: white;
+    margin-left: 30px;
+}
+
+.one {
+    font-size: 7rem;
+}
+
+.two {
+    font-size: 2em;
+}
+
+button {
+    margin-top: 20px;
+    height: 8vh;
+    width: 12vw;
+    background-color: rgb(168, 214, 168);
+    border: 1px solid black;
+    border-radius: 15px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(95, 209, 95);
+}
+
+.left p:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.right li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.cart img:hover {
+    /* text-decoration: underline; */
+    cursor: pointer;
+}
+
+.main-first {
+    background-image: url('summer-783347_1280.jpg');
+    height: 70vh;
+    display: flex;
+    justify-content: space-around;
+    /* width: 80vw; */
+    background-size: cover;
+}
+
+.imgs {
+    margin-top: 30px;
+    /* width: 60%; */
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-around;
+}
+
+.last_sec {
+    background-image: url('lastsec.webp');
+    height: 90vh;
+    background-size: cover;
+    width: 70%;
+    margin-top: 10px;
+}
+
+.last_right {
+    /* margin-top: 10px; */
+    background-color: rgba(249, 196, 38, 0.655);
+    position: absolute;
+    right: 0;
+    /* top: 0; */
+    width: 30%;
+    height: 90vh;
+    /* margin: 20px; */
+
+}
+
+#lr {
+    margin: 20px;
+}
+
+#lr hr {
+    margin-top: 20px;
+    width: auto;
+}
+
+.head {
+    /* position: absolute; */
+    /* z-index: -20px; */
+    /* color: white; */
+    font-size: 39px;
+    font-weight: bold;
+    margin-bottom: 3vh;
+}
+
+.head-1 {
+    /* position: absolute; */
+    /* color: white; */
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+hr {
+    color: black;
+    width: 2px;
+}
+
+.foot {
+    height: 500px;
+    /* background-color: red; */
+
+}
+
+.cooking {
+    font-size: 3em;
+    /* color: white; */
+    margin-left: 20px;
+    margin-bottom: 2vh;
+    margin-top: 2vh;
+}
+
+.f-imgs {
+    /* margin-left: 20px; */
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.f-left {
+    height: 61vh;
+    background-color: white;
+    width: 30%;
+    border-radius: 20px;
+}
+
+.f-mid {
+    height: 61vh;
+    background-color: white;
+    width: 30%;
+    border-radius: 20px;
+}
+
+.f-right {
+    height: 61vh;
+    background-color: white;
+    width: 30%;
+    border-radius: 20px;
+}
+
+.f-left img {
+    height: 48vh;
+    width: 26vw;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    padding: 30px;
+    /* border-radius: 20px; */
+    border-radius: 6vh;
+}
+
+
+.f-mid img {
+    height: 48vh;
+    width: 26vw;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    padding: 30px;
+    /* border-radius: 20px; */
+    border-radius: 6vh;
+
+}
+
+
+.f-right img {
+    height: 48vh;
+    width: 26vw;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    padding: 30px;
+    /* border-radius: 20px; */
+    border-radius: 6vh;
+
+}
+
+.menu:hover {
+    cursor: pointer;
+}
+
+.l {
+    /* height: 20px;
+    width: 30px; */
+    border-radius: 20px;
+    background-color: red;
+    padding-left: 20px;
+    width: 20vw;
+    height: 3vh;
+    display: flex;
+    flex-direction: row;
+    padding-left: 2vw;
+
+}
+
+.m {
+     /* height: 20px;
+    width: 30px; */
+    border-radius: 20px;
+    background-color: red;
+    padding-left: 20px;
+    width: 20vw;
+    height: 3vh;
+    display: flex;
+    flex-direction: row;
+    /* margin-top :-20px; */
+}
+
+.r {
+    /* height: 20px;
+    width: 30px; */
+    border-radius: 20px;
+    background-color: red;
+    padding-left: 5vw;
+    width: 20vw;
+    height: 3vh;
+    display: flex;
+    flex-direction: row;
+    /* margin-top :-20px; */
+}
